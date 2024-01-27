@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b32peucf78a7u"]
+
+[ext_resource type="Texture2D" uid="uid://x1gtuxg0humt" path="res://png-assets/PongBar.png" id="1_sf7sd"]
+
+[node name="Player" type="Sprite2D"]
+position = Vector2(3, 20)
+scale = Vector2(-0.25, 1)
+texture = ExtResource("1_sf7sd")
