@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://6a4d6ctpc2a6"]
+
+[ext_resource type="Texture2D" uid="uid://x1gtuxg0humt" path="res://png-assets/PongBar.png" id="1_ainr1"]
+[ext_resource type="Script" path="res://Main.cs" id="1_opo2v"]
+
+[node name="Main" type="Node2D"]
+position = Vector2(9, 23)
+script = ExtResource("1_opo2v")
+
+[node name="PongPlayer" type="Sprite2D" parent="."]
+position = Vector2(-6, -12)
+texture = ExtResource("1_ainr1")
